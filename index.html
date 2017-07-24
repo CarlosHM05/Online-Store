@@ -6,22 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
-<link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
-
 <base href="/">
 </head>
 <body>
-    
 
+    <ul>
+        <li><a ui-sref="home">Home</a></li>
+        <li><a ui-sref="about">About</a></li>
+
+    </ul>
+<ui-view> </ui-view>
 
 
 
@@ -35,7 +29,8 @@
 
 <script src="node_modules/angular/angular.js"></script>
 <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
-<script src= "ngApp/controllers/maincontrollers.js"></script>
+<script src= "ngApp/controllers/homecontroller.js"></script>
+<script src= "ngApp/controllers/aboutcontroller.js"></script>
 <script src= "ngApp/app.js"></script>
 </body>
 </html>

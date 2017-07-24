@@ -1,0 +1,6 @@
+<h1>Man Cave Inc.</h1>
+<p>{{vm.message}}</p>
+
+<ul ng-repeat="cave in vm.caves">
+    <li><a ui-sref="about({id:cave.id})">{{cave.item}}</a></li>
+</ul>
